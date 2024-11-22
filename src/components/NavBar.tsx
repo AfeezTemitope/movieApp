@@ -15,7 +15,7 @@ const NavBar = () => {
                     src={LogoIcon}
                     alt="MovieDB Logo"
                 />
-                <h1 className="ml-2 text-lg">MovieDB</h1>
+                <h1 className="ml-2 text-lg">BadMovieDB</h1>
             </div>
           
             <button
