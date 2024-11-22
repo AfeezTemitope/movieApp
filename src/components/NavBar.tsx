@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import LogoIcon from '../assets/LogoIcon.png'
 const NavBar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -12,7 +12,7 @@ const NavBar = () => {
             <div className="flex items-center">
                 <img
                     className="h-10"
-                    src="https://res-console.cloudinary.com/dgvjxhqjd/thumbnails/v1/image/upload/v1732266052/MThkZWJkZTgtM2RmYS00YThiLTk2NzItOTViZjY5NGZhZDc1X2ltbW81cQ==/drilldown"
+                    src={LogoIcon}
                     alt="MovieDB Logo"
                 />
                 <h1 className="ml-2 text-lg">MovieDB</h1>
