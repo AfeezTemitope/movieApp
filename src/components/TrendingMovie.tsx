@@ -3,13 +3,13 @@ import axios from 'axios';
 
 interface Movie {
     id: number;
-    poster_path: string;
+    poster_path?: string;
     title: string;
     vote_average: number;
 }
 
-const API_URL = process.env.REACT_APP_API_URL;
-const API_TOKEN = process.env.REACT_APP_API_TOKEN;
+const API_URL = process.env.REACT_APP_API_URL || 'error';
+const API_TOKEN = process.env.REACT_APP_API_TOKEN || 'error';
 
 const TrendingMovie: React.FC = () => {
 
